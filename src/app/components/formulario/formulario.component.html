@@ -1,0 +1,41 @@
+<!-- LOGIN-->
+<div class="row" id="contenedor">
+  <img id="movil" src="./images/movil.png" alt="" />
+
+  <div class="column" id="datos-usuario">
+    <div id="hijo1" class="column">
+      <div>
+        <h1 class="text-center">LOGIN</h1>
+      </div>
+      <div class="column">
+        <input
+          id="campo1"
+          [(ngModel)]="usuario"
+          type=""
+          class="form"
+          placeholder="Usuario"
+        />
+        <input
+          id="campo1"
+          [(ngModel)]="apellido"
+          type=""
+          class="form"
+          placeholder="Apellido"
+        />
+
+        <input
+          input
+          id="campo2"
+          type=""
+          class="form"
+          placeholder="Contraseña"
+          [(ngModel)]="password"
+        />
+
+        <button id="button" class="boton" type="button" (click)="addLista()">
+          Registrarse
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

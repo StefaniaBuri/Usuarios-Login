@@ -1,0 +1,23 @@
+/*Google fonts*/@import url('https://fonts.googleapis.com/css?family=Raleway');
+.fichas {
+   
+    background-color: rgb(250, 235, 223);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+
+
+ i{    
+    float: right;    
+    color: #888;    
+    cursor: pointer;
+}
+ 

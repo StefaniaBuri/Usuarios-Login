@@ -1,0 +1,236 @@
+body { 
+    padding: 0; margin: 0;
+}
+form { 
+    max-width: 25em; margin: 1em auto;
+}
+button {
+    margin-left: 10px;
+}
+input {
+    margin: 5px;
+    width: 200px;
+}
+
+/* CSS LOGIN*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family:sans-serif;
+    font-size:12px;
+    width: 100%; 
+}
+body{
+    background-color: #fafafa;
+}
+
+h1 {
+    color: black;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;  
+}
+
+#movil{
+    width: 450px;
+    margin-left: 8%;
+}
+
+#hijo1{
+border: solid 1px rgb(190, 185, 185);
+border-radius: 3px;
+padding: 20px;
+height:400px ;
+width: 350px;
+margin-bottom: 10px;
+background-color: white;
+
+}
+#nombre{
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+#campo1{
+    padding: 20px;
+    width: 250px; 
+    height: 40px;
+    border: solid 1px rgb(190, 185, 185);
+    border-radius: 3px;
+    background-color: rgb(236, 235, 235);
+    
+}
+#campo2{
+    padding: 20px;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px rgb(190, 185, 185);
+    border-radius: 3px;
+    background-color: rgb(236, 235, 235);
+   
+}
+button{
+   
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color: #0094f655;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+button:hover{
+	cursor: pointer;
+}
+.linea{
+    height: 1px;
+    width: 1000px; 
+    background-color: rgb(190, 185, 185);
+}
+.O{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#iconofb{
+    width: 15px;
+    margin-left: 90px;
+}
+
+.iniciar{
+    color: #385185;
+    font-size: 14px;
+    font-weight:bold;
+    background-color: white;
+    border: none;
+    margin-right: 30px;
+    
+}
+.iniciar:hover{
+    cursor: pointer;
+}
+
+.olvidar{
+    color: #385185;
+    padding: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+}
+.olvidar:hover{
+    cursor: pointer;
+}
+
+#registrate{
+    border: solid 1px rgb(190, 185, 185);
+    border-radius: 3px;
+    width: 350px;
+    height: 60px;
+    background-color: white;
+}
+#registrate p{
+    margin-left: 60px;
+}
+
+.submit{
+    color: rgb(0, 81, 255);
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    text-align: left;
+
+  }
+.submit:hover{
+    cursor: pointer;
+}
+
+#descarga{
+    margin-top: 10px;
+}
+#descarga p{
+    margin-bottom: 10px;
+}
+#logo{
+    width: 300px;
+}
+
+#final1{
+    width: 1050px;
+    margin-left: 130px;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: #fafafa;
+}
+
+#final1 input {
+    color: #8E8E8E ; 
+    border: none;
+    background-color: #fafafa;
+    text-align: center;
+    width: 120px;
+}
+#final1 :hover {
+    cursor: pointer;
+}
+
+#final2{
+    width: 1050px;
+    margin-left: 180px;
+    padding: 5px;
+    background-color: #fafafa;
+}
+
+#final2 input {
+    
+    color: #8E8E8E ; 
+    border: none;
+    background-color: #fafafa;
+    text-align: center;
+    width: 99px;
+}
+#final2 :hover {
+    cursor: pointer;
+}
+#lenguajes{
+    color: #8E8E8E ; 
+    background-color: #fafafa;
+    border: none;
+    text-align: center;
+    width: 99px;
+}
+#lenguajes :hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:780px){
+ #Movil{
+    display: none;
+ }
+}

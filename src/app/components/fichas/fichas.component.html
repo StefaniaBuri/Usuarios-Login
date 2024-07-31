@@ -1,0 +1,40 @@
+<div class="imagen">
+  <!--  <img src="{{ ficha?.img }}" />
+  <h5 class="card-title">{{ ficha?.nombre }}</h5>-->
+
+  <!--  <img class="trash" src="./images/trash.png" alt="" />-->
+
+  <!-- CARDS -->
+  <mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ ficha?.usuario }}</mat-card-title>
+      <mat-card-subtitle>{{ ficha?.apellido }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-actions>
+      <div class="example-button-container">
+        <button
+          mat-fab
+          disabled
+          aria-label="Example icon button with a heart icon"
+        >
+          <mat-icon>favorite</mat-icon>
+          LIKE
+        </button>
+      </div>
+
+      <button mat-button>
+        <mat-icon>share</mat-icon>
+        SHARE
+      </button>
+      <!-- TRASH BUTTON -->
+      <button
+        mat-fab
+        aria-label="Example icon button with a delete icon"
+        (click)="deleteItem()"
+      >
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

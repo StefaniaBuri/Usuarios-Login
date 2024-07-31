@@ -1,0 +1,9 @@
+<!-- USUARIOS-->
+<div class="fichas">
+  <app-fichas
+    *ngFor="let task of gestorLista.lenguajes; let index = index"
+    [ficha]="task"
+    [index]="index"
+  >
+  </app-fichas>
+</div>
